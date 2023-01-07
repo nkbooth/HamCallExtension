@@ -1,0 +1,18 @@
+{
+
+  "manifest_version": 2,
+  "name": "Hamcall.dev Callbook Search",
+  "description": "Adds a search engine that searches for callbook information from hamcall.dev.",
+  "version": "0.1",
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Hamcall",
+      "search_url": "https://hamcall.dev/{searchTerms}",
+      "keyword": "callsign",
+      "favicon_url": "https://www.hamcall.dev/favicon.ico",
+      "is_default": false,
+      "encoding": "UTF-8"
+    }
+  }
+
+}
